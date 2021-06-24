@@ -31,7 +31,7 @@ const questions = [
     {
         type: "list",
         name: "optionsNewTM",
-        message: "Please choose one of the folowing options if you would like to add Engineer or Intern or simply hit ENTER/SPACE to continue",
+        message: "Please choose one of the folowing options if you would like to add Engineer or Intern or choose 'None' to continue",
         choices: [
             "None",
             "Engineer",

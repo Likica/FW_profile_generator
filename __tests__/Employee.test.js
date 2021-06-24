@@ -1,21 +1,46 @@
+const { expect, test } = require('@jest/globals');
 const Employee = require('../lib/Employee');
-
-jest.mock('../lib/Employee.js');
 
 test('test for required properties', () => {
     const employee = new Employee();
-
-    expect(employee.name).toEqual(expect.any(String));
-    expect(employee.id).toEqual(expect.any(Number));
-    expect(employee.email).toEqual(expect.any(String));
+    expect(typeof (employee)).toBe('object');
 });
 
-// check for GETers settings
-test("gets employee's info", () => {
-    const employee = new Employee();
+test('can get employee name', () => {
+    const name = 'London';
+    const employee = new Employee(name);
+});
 
-    expect(employee.getName()).toEqual('London England');
-    expect(employee.getId()).toEqual(expect.any(Number));
-    expect(employee.getEmail()).toEqual('lEngland@myemail.com');
-    expect(employee.getRole()).toEqual('employee');
+test('can set id', () => {
+    const eId = 100;
+    const employee = new Employee('England', eId);
+    expect(employee.id).toBe(eId);
+});
+
+test('can set email', () => {
+    const eEmail = 'lengland@email.com';
+    const employee = new Employee('England', 1, eEmail);
+    expect(employee.email).toBe(eEmail);
+});
+
+//check for GETers
+test('can get name with getName()', () => {
+    const name = 'London';
+    const employee = new Employee(name);
+    expect(employee.getName()).toBe(name);
+});
+test('can get id with getId()', () => {
+    const eId = 100;
+    const employee = new Employee('England', eId);
+    expect(employee.getId()).toBe(eId);
+});
+test('get email with getEmail()', () => {
+    const eEmail = 'lengland@email.com';
+    const employee = new Employee('England', 1, eEmail);
+    expect(employee.getEmail()).toBe(eEmail);
+});
+test('return Employee with getRole()', () => {
+    const eRole = 'Employee';
+    const employee = new Employee('London', 1, 'lengland@email.com');
+    expect(employee.getRole()).toBe(eRole);
 });
