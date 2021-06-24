@@ -30,21 +30,14 @@
 
 ## **Description**
 ###### [Back to Table of Contents](#Table-of-Contents)
-* TASKS completed
-- Created Employee Object, tests and mock
-- Started with index.js, added Q&As for Employee
-- Created files structure
-
-* TASKS in progress
-- Objects for Engineer, Intern and Manager
-- HTMLtemplate
-- Complete index.js
+* 
+- 
 
 ### **Installation**
 ###### [Back to Table of Contents](#Table-of-Contents)
-1. Once opened, the application will prompt the user for input, and
+1. Once open, the application will prompt the user for input, and
 2. After receiving all required inputs, 
-3. The application will generate an HTML, which when opnned in browser is your WebPage. 
+3. The application will generate an HTML, which is your Webpage in browser. 
 
 ### **Usage**
 ###### [Back to Table of Contents](#Table-of-Contents)
