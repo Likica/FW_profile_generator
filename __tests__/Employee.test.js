@@ -1,3 +1,4 @@
+//need jest globals 
 const { expect, test } = require('@jest/globals');
 //require Employee model
 const Employee = require('../lib/Employee');
