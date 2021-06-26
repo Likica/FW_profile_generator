@@ -4,9 +4,9 @@ const createTeam = team => {
     const createManager = manager => {
         return `
         <div class='card employee-card'>
-        <div class='card-header'>
-        <h3 class='card-title'>${manager.getName()}</h3>
-        <h4 class='card-title'><i class='mr-2'></i>${manager.getRole()}
+        <div class='card-header text-center'>
+        <h3 class='card-title text-center'>${manager.getName()}</h3>
+        <h4 class='card-title text-center'><i class='mr-2'></i>${manager.getRole()}
         </h4>
         </div>
         <div class='card-body'>
@@ -16,7 +16,7 @@ const createTeam = team => {
         <li class='list-group-item'>EMAIL: <a href='mailto:${manager.getEmail()}'>${manager.getEmail()}
         </a>
         </li>
-        <li class='list-group-item'>PHONE NUMBER: ${manager.getPhoneNumber()}
+        <li class='list-group-item'>TEL#: ${manager.getPhoneNumber()}
         </li>
         </ul>
         </div>
@@ -27,11 +27,11 @@ const createTeam = team => {
     //need to add html portion for engineer
     const createEngineer = engineer => {
         return `
-        <div class='car employee-card'>
-        <div class='card-header'>
-        <h3 class='card-title'>${engineer.getName()}
+        <div class='card employee-card'>
+        <div class='card-header text-center'>
+        <h3 class='card-title text-center'>${engineer.getName()}
         </h3>
-        <h4 class='card-title'><i class="mr-2'></i>${engineer.getRole()}
+        <h4 class='card-title text-center'><i class='mr-2'></i>${engineer.getRole()}
         </h4>
         </div>
         <div class='card-body'>
@@ -54,17 +54,21 @@ const createTeam = team => {
     //need to add html portion for intern
     const createIntern = intern => {
         return `
-        <div class='card-header'>
-        <h3 class='card-title'>${intern.getName()}
+        <div class='card employee-card'>
+        <div class='card-header text-center'>
+        <h3 class='card-title text-center'>${intern.getName()}
         </h3>
-        <h4 class='card-title'><i class='mr-2'></i>${intern.getRole()}
+        <h4 class='card-title text-center'><i class='mr-2'></i>${intern.getRole()}
         </h4>
         </div>
         <div class='card-body'>
         <ul class='list-group'>
         <li class='list-group-item'>ID: ${intern.getId()}
         </li>
-        <li class='list-group-item'>EMAIL: <a href='mailto:${intern.getEmail()}'>$${intern.getEmail()}
+        <li class='list-group-item'>EMAIL: <a href='mailto:${intern.getEmail()}'>${intern.getEmail()}
+        </a>
+        </li>
+        <li class='list-group-item'>SCHOOL: <a ${intern.getSchool()}'>${intern.getSchool()}
         </a>
         </li>
         </ul>
@@ -101,15 +105,16 @@ module.exports = team => {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheeet' href='../dist/style.css'>
     <title>Team Profile</title>
-    <link rel='stylesheeet' href='./style.css'>
 </head>
 <body>
 
 <div class ='container-fluid'>
 <div class='row'>
 <div class='col-12 jumbotron mb-3 team-heading'>
-<h1 class='text-center'>Team Profile</h1>
+<h1 class='text-center'  style='font-size: 80px'>Team Profile</h1>
 </div>
 </div>
 </div>
