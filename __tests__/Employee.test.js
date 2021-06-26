@@ -1,4 +1,5 @@
 const { expect, test } = require('@jest/globals');
+//require Employee model
 const Employee = require('../lib/Employee');
 
 test('test for required properties', () => {

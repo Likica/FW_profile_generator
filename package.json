@@ -1,8 +1,17 @@
 {
   "name": "fw_team_profile_generator",
   "version": "1.0.0",
-  "description": "This application generates an HTML that displays team's basic info",
+  "description": "<h1 align='center'>Weekly Assignment Title: FW_team_profile_generator</h1>",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
@@ -15,12 +24,5 @@
   "bugs": {
     "url": "https://github.com/Likica/FW_team_profile_generator/issues"
   },
-  "homepage": "https://github.com/Likica/FW_team_profile_generator#readme",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "inquirer": "^8.1.1"
-  },
-  "devDependencies": {
-    "jest": "^27.0.5"
-  }
+  "homepage": "https://github.com/Likica/FW_team_profile_generator#readme"
 }
