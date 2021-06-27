@@ -1,4 +1,4 @@
-//used https://www.youtube.com/watch?v=Pp9IG-prQjE for instructions //
+//used https://www.youtube.com/watch?v=Pp9IG-prQjE for instructions // as well as tutor help with issues
 // TODO: Include packages needed for this application
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -11,7 +11,7 @@ const inquirer = require('inquirer');
 
 
 // TODO: Create a function taking in an array of questions for user input/
-//add output dir and path
+//add output dir and path/worked with tutor
 const OUTPUT_DIR = path.resolve(__dirname, 'output')
 const outputPath = path.join(OUTPUT_DIR, 'myteam.html');
 
@@ -154,7 +154,7 @@ function myTmenu() {
     }
 
 
-    //buildTeam Function - important to be at the end after all other ()'s have been called
+    //buildTeam Function - important to be at the end after all other ()'s have been called/worked with tutor
     function buildTeam() {
         if (!fs.existsSync(OUTPUT_DIR)) {
             fs.mkdirSync(OUTPUT_DIR)
