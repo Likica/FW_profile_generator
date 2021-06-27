@@ -6,7 +6,7 @@ const createTeam = team => {
         <div class='card employee-card'>
         <div class='card-header text-center'>
         <h3 class='card-title text-center'>${manager.getName()}</h3>
-        <h4 class='card-title text-center'><i class='mr-2'></i>${manager.getRole()}
+        <h4 class='card-title role text-center'><i class='mr-2'></i>${manager.getRole()}
         </h4>
         </div>
         <div class='card-body'>
@@ -31,7 +31,7 @@ const createTeam = team => {
         <div class='card-header text-center'>
         <h3 class='card-title text-center'>${engineer.getName()}
         </h3>
-        <h4 class='card-title text-center'><i class='mr-2'></i>${engineer.getRole()}
+        <h4 class='card-title role text-center'><i class='mr-2 role'></i>${engineer.getRole()}
         </h4>
         </div>
         <div class='card-body'>
@@ -58,7 +58,7 @@ const createTeam = team => {
         <div class='card-header text-center'>
         <h3 class='card-title text-center'>${intern.getName()}
         </h3>
-        <h4 class='card-title text-center'><i class='mr-2'></i>${intern.getRole()}
+        <h4 class='card-title role text-center' ><i class='mr-2 role'></i>${intern.getRole()}
         </h4>
         </div>
         <div class='card-body'>
@@ -106,14 +106,14 @@ module.exports = team => {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel='stylesheeet' href='../dist/style.css'>
+    <link rel='stylesheet' href='../dist/style.css'>
     <title>Team Profile</title>
 </head>
 <body>
 
 <div class ='container-fluid'>
 <div class='row'>
-<div class='col-12 jumbotron mb-3 team-heading'>
+<div class='col-12 jumbotron team-heading'>
 <h1 class='text-center'  style='font-size: 80px'>Team Profile</h1>
 </div>
 </div>

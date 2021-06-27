@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
   }
-  
+  .jumbotron{
+    padding: 0px 2px;
+  }
   body {
     background-color: rgb(182, 232, 247);
     margin: 0;
@@ -23,3 +25,32 @@
   .card {
     margin: 1%;
   }
+ .role{
+   font-size: x-large;
+   font-style: italic;
+   font-weight: bold;
+  }
+
+ /* Media Queries Start */
+/* Media Query for 980px screen */
+  @media screen and (max-width: 980px) {
+  * {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+      }
+  }
+  
+  /* Media Query for 768px screen */
+  @media screen and (max-width: 768px) {
+      .body {
+          padding: 30px 15px;
+          }
+      
+      /* Media Query for 575px screen */
+      @media screen and (max-width: 575px) {
+      .body {
+          width: 100%;
+          }
+        }}
+      

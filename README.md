@@ -2,9 +2,9 @@
 
 ### By Likica
 #### [Walk-through Video Link](https://www.github.com/likica)
-#### [My GitHUb Profile](https://github.com/likica) 
+#### [My GitHub Profile](https://github.com/likica) 
 #### [📧 Email me](mailto:fahrija_wyroski@live.com)
-* **This application generates a Webpage that displays team's basic info** 
+ 
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/likica/FW_team_profile_generator" />
     <img src="https://img.shields.io/github/issues/likica/FW_team_profile_generator" />
@@ -22,50 +22,56 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Features](#features)
-* [IMAGES](#images)
-* [TESTS](#tests)
+* [Images](#images)
+* [Tests](#tests)
 * [Credits](#credits)
 * [Contributing](#contributing)
 * [License](#license)
 
 ## **Description**
 ###### [Back to Table of Contents](#Table-of-Contents)
-* 
-- 
+* This application generates a Webpage that displays team's basic info created from user inputs
+    - Allows to add new employees (Manager, Engineer, Intern)
+* This application is mainly created out of necessity, curiousity and for easier generating team info pages for easy access to your team's basic info. Challenge for beginners but pleasure once it is done!
 
 ### **Installation**
+###### [Back to Table of Contents](#Table-of-Contents)
+1. User needs to have `node.js, vscode, and npm` installed, as well as `npm` dependencies necessary to run this app `(fs, inquirer and jest)`.
+2. Afer installing dependencies, app can be run by running `npm index` in your terminal/bash
+
+### **Usage**
 ###### [Back to Table of Contents](#Table-of-Contents)
 1. Once open, the application will prompt the user for input, and
 2. After receiving all required inputs, 
 3. The application will generate an HTML, which is your Webpage in browser. 
 
-### **Usage**
 ###### [Back to Table of Contents](#Table-of-Contents)
-* This application is mainly created out of necessity, curiousity and for easier generating team info pages for easy access to your team's basic info. Challenge for beginners but pleasure once it is done!
+#### **Images**
+<h4 align="center" width="100%">
+    <p align="center" width="100%">
+    <img src="src/assets/mockup_img.png" width="30%"/>
+    <img src="src/assets/mockup_img.png" width="30%"/>
+    <img src="src/assets/mockup_img.png" width="30%"/>
+</p>
 
-###### [Back to Table of Contents](#Table-of-Contents)
-#### **IMAGES**
-<h3 align="center" width="100%">
- <br>1. Landing Page</br>
-<p align="center" width="100%">
-    <img src="./src/mockup_img.png" width="40%"/>
-</p></h3>
-
-#### **TESTS**
-* Test 1
-* Test 2
+#### **Tests**
+* Employee.test
+* Engineer.test
+* Intern.test
+* Manager.test
 
 ### **Credits**
 ###### [Back to Table of Contents](#Table-of-Contents)
-* UW BootCamp TAs, instructors, tutors, AskBCS and all other that helped!
+* UW BootCamp TAs, instructors, my tutor, AskBCS and all other that helped - THANK YOU!
 
 ### **Contributing**
 ###### [Back to Table of Contents](#Table-of-Contents)
-* Made with ❤️ by _Likica_
+* Made with ❤️ by _Likica_ 
+- All are welcome to contribute within limits of below stated license
 
 ### **License**
 ###### [Back to Table of Contents](#Table-of-Contents)
- 'team_profile_generator' by Likica 2021 All Rights Reserved.
+ 'FW_team_profile_generator' by Likica 2021 All Rights Reserved.
   _All material must be cited or credited, when using material (free to use)._
    <br></br>
 #### **MIT License**
