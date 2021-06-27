@@ -42,16 +42,25 @@
 ### **Usage**
 ###### [Back to Table of Contents](#Table-of-Contents)
 1. Once open, the application will prompt the user for input, and
+<img align="center" width="100%" src="src/assets/addit_prompts.png" width="30%"/>
+
 2. After receiving all required inputs, 
+
+<img align="center" width="100%" src="src/assets/prompt_end.png" width="30%"/>
 3. The application will generate an HTML, which is your Webpage in browser. 
+<img align="center" width="100%" src="src/assets/html_gnrtd_landing_pg.png" width="60%"/>
 
 ###### [Back to Table of Contents](#Table-of-Contents)
 #### **Images**
 <h4 align="center" width="100%">
     <p align="center" width="100%">
-    <img src="src/assets/mockup_img.png" width="30%"/>
-    <img src="src/assets/mockup_img.png" width="30%"/>
-    <img src="src/assets/mockup_img.png" width="30%"/>
+    <img src="src/assets/start_prompt.png" width="30%"/>
+    <img src="src/assets/addit_prompts.png" width="30%"/>
+    <img src="src/assets/addit_prompt_eng.png" width="30%"/>
+    <br>
+    <img src="src/assets/prompt_end.png" width="30%"/>
+    <img src="src/assets/html_generated.png" width="30%"/>
+    <img src="src/assets/html_gnrtd_landing_pg.png" width="30%"/>
 </p>
 
 #### **Tests**
