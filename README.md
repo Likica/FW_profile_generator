@@ -1,7 +1,7 @@
 <h1 align='center'>Weekly Assignment Title: FW_team_profile_generator</h1>
 
 ### By Likica
-#### [Walk-through Video Link](https://www.github.com/likica)
+#### [Walk-through Video Link](https://drive.google.com/file/d/1aZJfCoUhxL_gju5o2Kkq7It60D-oHds4/view)
 #### [My GitHub Profile](https://github.com/likica) 
 #### [📧 Email me](mailto:fahrija_wyroski@live.com)
  
