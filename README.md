@@ -3,7 +3,7 @@
 ### By Likica
 #### [Walk-through Video Link](https://drive.google.com/file/d/1aZJfCoUhxL_gju5o2Kkq7It60D-oHds4/view)
 #### [My GitHub Profile](https://github.com/likica) 
-#### [📧 Email me](mailto:fahrija_wyroski@live.com)
+#### [📧 Email me](mailto:codefin9@hotmail.com)
  
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/likica/FW_team_profile_generator" />
